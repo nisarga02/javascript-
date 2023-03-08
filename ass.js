@@ -1,3 +1,136 @@
+/*JS Basics
+JIT Compiler:
+
+Parser-Interpreter(Bytecode) -  Compiler(Optimised code)
+
+Tools :
+
+Text Editor–VS, Sublime, Atom,etc.
+Browser - all browser(executing)
+
+ECMA: European COmputer Manufacturers Association
+ES2020 (June)
+
+Code: 
+Console (Ctrl+Shift+i) [Browser]
+Script Tag
+External js file
+
+var, let, const —keywords
+Valid- apple_name,$address1
+Invalid- 123apple,*rool,@emai
+
+Conditional Statements-if , if else, nested if-else
+
+Syntax:
+	if(cond){
+	}
+	Else{}
+
+Switch:
+	switch(exp){
+	Case val:...;
+		Break;
+	.
+	.
+	.
+	.
+	default:..;
+	}
+
+Loops:
+For Loop–For Each, For of, For in 
+for(initialization; termination; updation){}
+//for loop
+for (var num=0;num<11;num=num+2)
+   console.log(num);
+
+//for-each loop
+var num =[1,2,3,4];
+a.forEach(iterm=>console.log(item));
+
+For in –to access index
+For of-to access the item
+//for in loop
+for(var item in num)
+   console.log(item);
+
+
+//for of loop
+for(var item of num)
+   console.log(item);
+
+While Loop
+//while loop
+var num=0;
+while(num>5)
+{
+   console.log(num)
+   num++; //num=num+1;
+}
+
+Do-While
+	Even cond is false that will loop atleast once
+	//do while loop
+do {
+   console.log(num);
+   num++;
+}while(num<5)
+
+
+Operators:
+
+Unary: (a++,++a) Increment[prefix, postfix], decrement
+//unary
+var itr=10;
+console.log(itr++);//10
+console.log(itr);//11
+
+
+console.log(++itr);//12
+console.log(itr);//12
+
+Arithmetic Operator
++,-,*, **, /, %....
+
+Relational Operators
+—Left Shift, Right Shift
+//relational
+var num1=8,n=2;
+console.log(num1<<n); //64
+console.log(num1>>n);  //2
+
+E.g.. <, >, <=, >=,==, !=, === (can stope type coercion)
+
+Bitwise Operator
+e.g.,&, |, ^, ~
+
+Logical operators
+E.g,, &&, ||, !
+
+Assignment & Ternary Operators
+Assignment Operator(=)
+Ternary Operator(?:)[ alt of if else ]
+
+
+Hoisting
+
+//Hoisting
+console.log(x);
+var x=10;
+console.log(x); //undefined 10  
+
+console.log(x);
+let x=10;
+console.log(x); //cannot access a before init-- error
+
+console.log(x);
+const x=10;
+console.log(x); //cannot access a before init-- error
+
+
+*/
+
 let can=document.getElementById("table");
 let draw_= can.getContext('2d');
 
