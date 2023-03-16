@@ -1,4 +1,4 @@
-/*JS Basics
+JS Basics
 JIT Compiler:
 
 Parser-Interpreter(Bytecode) -  Compiler(Optimised code)
@@ -129,7 +129,7 @@ const x=10;
 console.log(x); //cannot access a before init-- error
 
 
-*/
+
 
 let can=document.getElementById("table");
 let draw_= can.getContext('2d');
